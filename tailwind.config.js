@@ -3,9 +3,15 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    fontFamily: {
+      head: ['Playfair Display', 'serif'],
+      body: ['Nunito', 'Sans-serif']
+    }
   },
   variants: {
-    extend: {},
+    extend: {
+      translate: ['group-hover']
+    },
   },
   plugins: [],
 }
