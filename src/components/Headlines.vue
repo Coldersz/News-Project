@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen bg-base">
-    <div class="mx-16 py-16">
+    <div class="mx-16 py-24">
       <div class="w-full flex gap-8">
         <div class="w-4/6">
           <div class="h-96 w-full grid place-content-between bg-yellow-400 rounded hover:bg-yellow-500 hover:transform duration-300 group">
