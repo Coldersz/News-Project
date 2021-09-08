@@ -1,19 +1,8 @@
 <template>
-  <div>
-    <div
-      class="
-        min-h-screen
-        bg-gradient-to-br
-        from-black
-        via-gray-800
-        to-black
-        bg-cover
-        w-full
-        px-10
-        py-14
-      "
-    >
-      <h1 class="text-white text-6xl font-body font-bold w-full block">
+  <div class="bg-gradient-to-br from-black via-gray-800 to-black bg-cover">
+    <Navbar />
+    <div class="min-h-screen w-full px-10 py-14">
+      <h1 class="text-white text-5xl font-body font-bold w-full block">
         Jelajahi
       </h1>
       <div class="w-full my-10 h-auto grid gap-8 grid-cols-4">
@@ -42,10 +31,31 @@
 </template>
 
 <script>
+import Navbar from "@/components/Navbar-T";
+
 export default {
+  components: {
+    Navbar,
+  },
   data() {
     return {
       sources: [
+        "Liputan 6",
+        "Liputan 6",
+        "Liputan 6",
+        "Liputan 6",
+        "Liputan 6",
+        "Liputan 6",
+        "Liputan 6",
+        "Liputan 6",
+        "Liputan 6",
+        "Liputan 6",
+        "Liputan 6",
+        "Liputan 6",
+        "Liputan 6",
+        "Liputan 6",
+        "Liputan 6",
+        "Liputan 6",
         "Liputan 6",
         "Liputan 6",
         "Liputan 6",
