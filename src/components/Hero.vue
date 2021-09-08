@@ -1,18 +1,8 @@
 <template>
-  <div class="hello">
-    <div
-      class="
-        min-h-screen
-        bg-gradient-to-br
-        from-black
-        via-gray-800
-        to-black
-        bg-cover
-        w-full
-        flex
-        px-10
-      "
-    >
+  <div
+    class="hello bg-gradient-to-br from-black via-gray-800 to-black bg-cover"
+  >
+    <div class="min-h-screen w-full flex px-10 ">
       <div class="w-1/2 flex flex-wrap content-center">
         <div
           class="
@@ -82,7 +72,7 @@
       <div class="w-1/2 flex justify-end">
         <img
           src="@/assets/globe-3.png"
-          alt="Photo by Markus Winkler on Unsplash"
+          alt="Globe"
           class="
             w-5/6
             rounded-xl
@@ -94,18 +84,41 @@
         />
       </div>
     </div>
+    <div class="w-full bg-white sticky top-0 shadow px-10 py-4 flex justify-between place-content-center z-50">
+      <div class="text-2xl text-red-600 font-bold font-head align-middle self-center cursor-pointer">CNEWS</div>
+      <div class="flex flex-row justify-center gap-4">
+        <div class=" text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-gray-800">Olahraga</div>
+        <div class=" text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-gray-800">Bisnis</div>
+        <div class=" text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-gray-800">Teknologi</div>
+        <div class=" text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-gray-800">Pendidikan</div>
+        <div class=" text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-gray-800">Politik</div>
+        <div class=" text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-gray-800">Ekonomi</div>
+        <div class=" text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-gray-800">Sosial</div>
+      </div>
+    </div>
+    <Headlines />
   </div>
 </template>
 
 <script>
+import Headlines from './Headlines';
 export default {
   name: "HelloWorld",
   props: {
     msg: String,
   },
+  components: {
+    Headlines
+  }
+  // if (window.scrollY > screen.height)
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
+.stick {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0 !important;
+}
 </style>
