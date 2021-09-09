@@ -6,7 +6,8 @@
         Jelajahi
       </h1>
       <div class="w-full my-10 h-auto grid gap-8 grid-cols-4">
-        <div
+        <router-link
+          to="/source"
           v-for="source in sources"
           :key="source"
           class="
@@ -24,7 +25,7 @@
           "
         >
           {{ source }}
-        </div>
+        </router-link>
       </div>
     </div>
   </div>
