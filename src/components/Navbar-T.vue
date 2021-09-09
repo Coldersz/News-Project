@@ -8,8 +8,8 @@
       <router-link to="/category" class="nav-item text-white text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-white">Teknologi</router-link>
       <router-link to="/category" class="nav-item text-white text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-white">Pendidikan</router-link>
       <router-link to="/category" class="nav-item text-white text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-white">Politik</router-link>
-      <router-link to="/category" class="nav-item text-white text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-white">Ekonomi</router-link>
-      <router-link to="/category" class="nav-item text-white text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-white">Sosial</router-link>
+      <router-link to="/category" class="nav-item text-white text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-white">Kesehatan</router-link>
+      <router-link to="/category" class="nav-item text-white text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-white">Hiburan</router-link>
     </div>
   </div>
 </template>
