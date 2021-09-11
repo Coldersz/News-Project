@@ -84,7 +84,7 @@
         />
       </div>
     </div>
-    <div class="w-full bg-transaprent sticky top-0 shadow px-10 py-4 flex justify-between place-content-center z-50 transition-all transform duration-500" id="header">
+    <div class="w-full bg-transaprent sticky top-0 shadow px-10 py-4 flex justify-between place-content-center z-50 transition-all transform duration-1000" id="header">
       <div class="text-2xl text-red-600 font-bold font-head align-middle self-center cursor-pointer">CNEWS</div>
       <div class="flex flex-row justify-center gap-4">
         <router-link to="/browse" class="nav-item text-white text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-white">Jelajahi</router-link>
