@@ -56,8 +56,7 @@
           w-full
           grid
           place-content-between
-          bg-cover bg-black
-          hover:mix-blend-multiply
+          bg-cover bg-gradient-to-br from-black via-gray-900 to-black
           transition-all
           transform
           duration-300

@@ -48,7 +48,7 @@ export default {
       setTimeout(() => {
         const headline = document.querySelectorAll(".top-headline")
         for (let i = 0; i < headline.length; i++) {
-          headline[i].style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(${this.articles[i].urlToImage})`
+          headline[i].style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(${this.articles[i].urlToImage || ''})`
         }
       }, 100);
     }
