@@ -12,12 +12,12 @@
           <div class="h-96 w-full ">
             <div class="font-body font-semibold text-2xl">Headlines lainnya</div>
             <div class="w-full mt-3">
-              <div v-for="article in articles" :key="article" class="py-2 font-body border-b group flex">
+              <a v-for="article in articles" :key="article" :href="article.url" target="_blank" class="py-2 font-body border-b group flex">
                 <span class="font-bold mr-4">#</span>
                 <div class="transform duration-300 group-hover:translate-x-1 truncate">
                   {{article.title}}
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
