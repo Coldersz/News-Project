@@ -3,7 +3,7 @@
     <router-link to="/" class="text-2xl text-red-600 font-bold font-head align-middle self-center cursor-pointer">CNEWS</router-link>
     <div class="flex flex-row justify-center gap-4">
       <router-link to="/browse" class="nav-item text-gray-800 text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-gray-800">Jelajahi</router-link>
-      <router-link to="/category" class="nav-item text-gray-800 text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-gray-800">Olahraga</router-link>
+      <router-link to="/category/sports" class="nav-item text-gray-800 text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-gray-800">Olahraga</router-link>
       <router-link to="/category" class="nav-item text-gray-800 text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-gray-800">Bisnis</router-link>
       <router-link to="/category" class="nav-item text-gray-800 text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-gray-800">Teknologi</router-link>
       <router-link to="/category" class="nav-item text-gray-800 text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-gray-800">Pendidikan</router-link>
