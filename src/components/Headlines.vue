@@ -58,7 +58,7 @@ export default {
     },
     changeBackground() {
       const headline = document.querySelector(".top-headline")
-      headline.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url(${this.topHeadline.urlToImage})`
+      headline.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.4)), url(${this.topHeadline.urlToImage})`
     }
   },
   created() {
