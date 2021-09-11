@@ -18,7 +18,7 @@ export default {
   },
   data() {
     return {
-      title: "Bisnis",
+      title: "Teknologi",
       articles: [],
     };
   },
@@ -30,7 +30,7 @@ export default {
           url: "/top-headlines",
           params: {
             country: "id",
-            category: "business",
+            category: "technology",
             apiKey: process.env.VUE_APP_API_KEY,
           },
           headers: {
