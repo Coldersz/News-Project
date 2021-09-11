@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-transparent sticky top-0 px-10 py-6 flex justify-between place-content-center z-50 transition-all transform duration-700" id="header">
+  <div class="w-full bg-transparent sticky top-0 px-10 py-6 hidden lg:flex justify-between place-content-center z-50 transition-all transform duration-700" id="header">
     <router-link to="/" class="text-2xl text-red-600 font-bold font-head align-middle self-center cursor-pointer">CNEWS</router-link>
     <div class="flex flex-row justify-center gap-4">
       <router-link to="/browse" class="nav-item text-gray-800 text-center p-2 font-body font-bold text-lg cursor-pointer border-b-2 border-transparent transform transition-all duration-300 hover:border-gray-800">Jelajahi</router-link>

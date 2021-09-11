@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex justify-between">
+  <div class="w-full hidden lg:flex justify-between">
     <h1 class="text-5xl font-head font-bold w-full block">{{ title }}</h1>
     <div class="flex gap-4">
       <div
@@ -41,11 +41,11 @@
       </div>
     </div>
   </div>
-  <div class="w-full my-10 grid grid-cols-3 gap-4">
+  <div class="w-full my-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
     <div
       v-for="article in articles"
       :key="article"
-      class="w-full h-64 flex flex-col"
+      class="w-full h-48 lg:h-64 flex flex-col"
     >
       <a
         :href="article.url || '/'"
@@ -71,7 +71,8 @@
           class="
             block
             font-head font-bold
-            text-xl text-white
+            text-sm
+            lg:text-xl text-white
             m-6
             transform
             duration-300
