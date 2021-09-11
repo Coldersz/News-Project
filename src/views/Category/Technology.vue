@@ -23,7 +23,7 @@ export default {
     };
   },
   methods: {
-    async fetchSports() {
+    async fetchTechs() {
       try {
         const response = await this.$news({
           methods: "GET",
@@ -54,7 +54,7 @@ export default {
     }
   },
   created() {
-    this.fetchSports()
+    this.fetchTechs()
   }
 };
 </script>
