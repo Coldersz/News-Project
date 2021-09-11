@@ -68,13 +68,4 @@ export default {
 </script>
 
 <style>
-.v-enter,
-.v-leave-to {
-  opacity: 0;
-}
-
-.v-leave,
-.v-enter-to {
-  opacity: 1;
-}
 </style>
