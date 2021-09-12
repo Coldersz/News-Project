@@ -1,7 +1,7 @@
 <template>
   <div class="bg-base">
     <Navbar />
-    <div class="min-h-screen w-full px-10 py-14">
+    <div class="min-h-screen w-full px-4 lg:px-10 py-14">
       <Contents :title="title" :articles="articles" />
     </div>
   </div>
@@ -50,6 +50,7 @@ export default {
         const headline = document.querySelectorAll(".top-headline")
         for (let i = 0; i < headline.length; i++) {
           headline[i].style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(${this.articles[i].urlToImage || ''})`
+          headline[i].style.backgroundPosition = "center"
         }
       }, 100);
     }
