@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen bg-base">
-    <div class="mx-16 py-24">
+    <div class="mx-10 py-24">
       <div class="w-full flex gap-8">
         <div class="w-4/6">
           <a :href="topHeadline.url || '/'" target="_blank" class="top-headline h-96 w-full grid place-content-between bg-cover bg-black hover:mix-blend-multiply transition-all transform duration-300 group" id="headline">
