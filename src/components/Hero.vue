@@ -98,18 +98,22 @@
       </div>
     </div>
     <Headlines />
+    <Covid />
   </div>
 </template>
 
 <script>
 import Headlines from './Headlines';
+import Covid from './Covid19';
+
 export default {
   name: "HelloWorld",
   props: {
     msg: String,
   },
   components: {
-    Headlines
+    Headlines,
+    Covid
   },
   methods: {
     scrollDown() {
